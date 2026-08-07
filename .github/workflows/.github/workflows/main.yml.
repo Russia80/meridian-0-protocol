@@ -1,0 +1,21 @@
+name: Deploy Meridian-0 Contracts to Sepolia
+
+on: [push]
+jobs:
+  deploy-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Foundry
+        run: |
+          curl -L https://foundry.paradigm.xyz | bash
+          source ~/.profile # Или .bashrc
+      - name: Set Up Environment Variables
+        env:
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          SEPOLIA_RPC_URL: ${{ secrets.SEPOLIA_RPC_URL }}
+      - name: Run Deployment Script
+        run: |
+          cd meridian-0-protocol
+          forge install
+          forge script script/Deploy.s.sol --broadcast --verify --rpc-url $SEPOLIA_RPC_URL

@@ -1,0 +1,44 @@
+html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дашборд доверия — Meridian‑0</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0d1117; color: #e6edf3; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #58a6ff; }
+        .metric { background: #161b22; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #30363d; }
+        .value { font-size: 2rem; font-weight: 700; color: #f0883e; }
+        .change { color: #238636; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📊 Дашборд доверия Meridian‑0</h1>
+    <p><em>Обновляется ежедневно в 18:00 UTC</em></p>
+
+    <div class="metric">
+        <div class="value">8.1 / 10</div>
+        <div>Доверие к системе <span class="change">(+0.2)</span></div>
+    </div>
+    <div class="metric">
+        <div class="value">4.9%</div>
+        <div>Дрифт (S4) — стабильно</div>
+    </div>
+    <div class="metric">
+        <div class="value">85%</div>
+        <div>Поддержка «эмпатии» <span class="change">(+4%)</span></div>
+    </div>
+    <div class="metric">
+        <div class="value">68%</div>
+        <div>Критичность метрики Alice</div>
+    </div>
+
+    <p style="margin-top: 30px;"><a href="https://russia80.github.io/meridian-protocol">← Вернуться на главную</a></p>
+</div>
+</body>
+</html>

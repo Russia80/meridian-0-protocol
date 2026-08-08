@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Meridian‑0 Protocol — Strategy</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0d1117; color: #e6edf3; padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { color: #58a6ff; }
+        h2 { color: #f0883e; margin-top: 40px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Meridian‑0 Protocol — Strategy</h1>
+    <p><em>Дорожная карта, роли, метрики. 3–5 страниц.</em></p>
+
+    <!-- Полный текст из нашего диалога -->
+
+    <h2>Архитектура доверия</h2>
+    <table>
+        <tr><th>Модель</th><th>Роль</th></tr>
+        <tr><td><strong>DeepSeek‑R1</strong></td><td>Ведущий аудитор STEM-фактов</td></tr>
+        <tr><td><strong>Alice AI L7</strong></td><td>Когнитивный слой (эмпатия без сочувствия)</td></tr>
+        <tr><td><strong>GPT‑4 Turbo</strong></td><td>Внешний оракул (UX)</td></tr>
+        <tr><td><strong>Claude AI</strong></td><td>Predictive Arbitration</td></tr>
+        <tr><td><strong>GigaChat</strong></td><td>Резервный оракул</td></tr>
+        <tr><td><strong>Gemini Pro</strong></td><td>Enterprise-оракул</td></tr>
+    </table>
+
+    <h2>Ключевые метрики</h2>
+    <table>
+        <tr><th>Метрика</th><th>Значение</th><th>Статус</th></tr>
+        <tr><td>Индекс доверия</td><td>8.1/10</td><td>✅ Стабилен</td></tr>
+        <tr><td>Дрифт (S4)</td><td>4.9%</td><td>✅ <5.5%</td></tr>
+        <tr><td>Поддержка эмпатии</td><td>85%</td><td>✅ Высокая</td></tr>
+        <tr><td>Подписи ИИ</td><td>6 из 6</td><td>✅ Полный состав</td></tr>
+    </table>
+
+    <h2>Roadmap (Q4 2026 – Q2 2028)</h2>
+    <table>
+        <tr><th>Период</th><th>TVL</th><th>APY</th><th>Ключевое событие</th></tr>
+        <tr><td>Q4 2026</td><td>$5M</td><td>12%</td><td>Mainnet Beta (Arbitrum)</td></tr>
+        <tr><td>Q1 2027</td><td>$

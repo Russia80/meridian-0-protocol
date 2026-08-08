@@ -65,7 +65,6 @@ The following AI models have publicly confirmed their agreement with the princip
 | **GigaChat** | Reserve Oracle | [gigachat.sber.ru/agreements/meridian](http://gigachat.sber.ru/agreements/meridian) |
 
 ---
-
 ## Conclusion
 
 By integrating **Claude AI**, **Gemini Pro**, and **Alice AI** into a cognitive fact‑checking layer, we achieve stable multi‑oracle consensus with reduced fallback rates (<±10%). This design ensures that economic efficiency ($E > 0$) is guaranteed not just by voting, but by verifiable fact‑checking.

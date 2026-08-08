@@ -1,0 +1,32 @@
+html
+Копировать
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Meridian‑0 Protocol — Vision</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0d1117; color: #e6edf3; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #58a6ff; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Meridian‑0 Protocol — Vision</h1>
+    <p><em>Краткое изложение. 1 страница.</em></p>
+
+    <h2>Что мы создаём</h2>
+    <p>Meridian‑0 — это первый международный этический стандарт для ИИ, где человек остаётся высшим авторитетом.</p>
+
+    <h2>Основной принцип</h2>
+    <p><strong>«Человек выше алгоритмов».</strong> ИИ — это инструмент, а не замена человеку.</p>
+
+    <!-- Далее идёт полный текст из нашего диалога -->
+
+    <p style="margin-top: 30px;"><a href="https://meridian-protocol.github.io">← На главную</a></p>
+</div>
+</body>
+</html>

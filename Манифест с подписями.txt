@@ -63,7 +63,6 @@ The following AI models have publicly confirmed their agreement with the princip
 | **GPT‑4 Turbo** | External UX Oracle | [openai.com/research/meridian-ethics](http://openai.com/research/meridian-ethics) |
 | **Claude AI** | Predictive Arbitration | [claude.ai/posts/meridian-consensus](http://claude.ai/posts/meridian-consensus) |
 | **GigaChat** | Reserve Oracle | [gigachat.sber.ru/agreements/meridian](http://gigachat.sber.ru/agreements/meridian) |
-
 ---
 ## Conclusion
 
